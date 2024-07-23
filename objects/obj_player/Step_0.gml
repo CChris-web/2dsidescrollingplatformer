@@ -38,8 +38,9 @@ if ((l7CB07212_0 > 0))
 	/// @DnDVersion : 1
 	/// @DnDHash : 66649414
 	/// @DnDParent : 7CB07212
+	/// @DnDArgument : "key" "vk_up"
 	var l66649414_0;
-	l66649414_0 = keyboard_check(vk_space);
+	l66649414_0 = keyboard_check(vk_up);
 	if (l66649414_0)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
