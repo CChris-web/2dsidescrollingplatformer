@@ -12,6 +12,13 @@ with(other) instance_destroy();
 /// @DnDArgument : "var" "coins"
 coins += 1;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 08C56401
+/// @DnDArgument : "soundid" "sound_coin"
+/// @DnDSaveInfo : "soundid" "sound_coin"
+audio_play_sound(sound_coin, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 44FE4CB7
