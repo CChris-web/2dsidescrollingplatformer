@@ -60,9 +60,9 @@ else
 		/// @DnDVersion : 1
 		/// @DnDHash : 251E47FF
 		/// @DnDParent : 6DBECD92
-		/// @DnDArgument : "xscale" "-1*abs(image_xscale)"
+		/// @DnDArgument : "xscale" "1*abs(image_xscale)"
 		/// @DnDArgument : "yscale" "image_yscale"
-		image_xscale = -1*abs(image_xscale);
+		image_xscale = 1*abs(image_xscale);
 		image_yscale = image_yscale;
 	}
 
