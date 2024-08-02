@@ -31,8 +31,9 @@ if ((l7CB07212_0 > 0))
 	/// @DnDHash : 1D105F12
 	/// @DnDComment : reset the falling speed $(13_10)on movement Y$(13_10)when you landed on ground
 	/// @DnDParent : 7CB07212
+	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "move_y"
-	move_y = 0;
+	move_y += 0;
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDVersion : 1

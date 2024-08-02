@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_snake",
-    "path":"sprites/spr_snake/spr_snake.yy",
+    "name":"spr_snake_walk",
+    "path":"sprites/spr_snake_walk/spr_snake_walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

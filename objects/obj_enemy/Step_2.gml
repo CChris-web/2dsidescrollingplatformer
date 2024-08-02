@@ -2,18 +2,18 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5933183B
 /// @DnDComment : if jumping or falling$(13_10)move_y < 0
-/// @DnDArgument : "expr" "move_y > 0"
-if(move_y > 0)
+/// @DnDArgument : "expr" "move_y > 0||move_y < 0 "
+if(move_y > 0||move_y < 0 )
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 763488B5
 	/// @DnDParent : 5933183B
-	/// @DnDArgument : "imageind" "3"
-	/// @DnDArgument : "spriteind" "spr_snake"
-	/// @DnDSaveInfo : "spriteind" "spr_snake"
-	sprite_index = spr_snake;
-	image_index = 3;
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_snake_jump"
+	/// @DnDSaveInfo : "spriteind" "spr_snake_jump"
+	sprite_index = spr_snake_jump;
+	image_index += 0;
 }
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -51,9 +51,9 @@ else
 		/// @DnDHash : 6D4B2660
 		/// @DnDParent : 6DBECD92
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_snake"
-		/// @DnDSaveInfo : "spriteind" "spr_snake"
-		sprite_index = spr_snake;
+		/// @DnDArgument : "spriteind" "spr_snake_walk"
+		/// @DnDSaveInfo : "spriteind" "spr_snake_walk"
+		sprite_index = spr_snake_walk;
 		image_index += 0;
 	
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale
@@ -81,9 +81,9 @@ else
 		/// @DnDHash : 6BAE83DA
 		/// @DnDParent : 10AA25D2
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_snake"
-		/// @DnDSaveInfo : "spriteind" "spr_snake"
-		sprite_index = spr_snake;
+		/// @DnDArgument : "spriteind" "spr_snake_walk"
+		/// @DnDSaveInfo : "spriteind" "spr_snake_walk"
+		sprite_index = spr_snake_walk;
 		image_index += 0;
 	
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale
@@ -108,9 +108,9 @@ else
 		/// @DnDHash : 427A52A4
 		/// @DnDParent : 087A0B12
 		/// @DnDArgument : "imageind" "1"
-		/// @DnDArgument : "spriteind" "spr_snake"
-		/// @DnDSaveInfo : "spriteind" "spr_snake"
-		sprite_index = spr_snake;
+		/// @DnDArgument : "spriteind" "spr_snake_walk"
+		/// @DnDSaveInfo : "spriteind" "spr_snake_walk"
+		sprite_index = spr_snake_walk;
 		image_index = 1;
 	}
 }

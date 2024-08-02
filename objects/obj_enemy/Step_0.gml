@@ -76,8 +76,9 @@ if ((l7CB07212_0 > 0))
 		/// @DnDHash : 5BAFE116
 		/// @DnDParent : 394542EC
 		/// @DnDArgument : "expr" "move_x * -1"
+		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "move_x"
-		move_x = move_x * -1;
+		move_x += move_x * -1;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
