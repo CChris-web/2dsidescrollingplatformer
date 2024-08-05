@@ -9,4 +9,4 @@ with(obj_flag) instance_destroy();
 /// @DnDHash : 5875389A
 /// @DnDArgument : "room" "Room3"
 /// @DnDSaveInfo : "room" "Room3"
-room_goto(Room3);
+room_goto(Welcome);
