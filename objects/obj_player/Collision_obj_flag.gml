@@ -7,6 +7,6 @@ with(obj_flag) instance_destroy();
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 5875389A
-/// @DnDArgument : "room" "Room3"
-/// @DnDSaveInfo : "room" "Room3"
-room_goto(Welcome);
+/// @DnDArgument : "room" "Room1_1"
+/// @DnDSaveInfo : "room" "Room1_1"
+room_goto(Room1_1);

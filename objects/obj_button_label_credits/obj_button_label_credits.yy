@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_label_text_controls",
+  "%Name":"obj_button_label_credits",
   "eventList":[],
   "managed":true,
-  "name":"obj_button_label_text_controls",
+  "name":"obj_button_label_credits",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_label_parent","path":"objects/obj_button_label_parent/obj_button_label_parent.yy",},"propertyId":{"name":"text_data","path":"objects/obj_button_label_parent/obj_button_label_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Up Arrow: Jump\\nLeft Arrow: Move Left\\nRight Arrow: Move Right\\nWin By Touching the Flag\\nLose By Falling Off the Map",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_label_parent","path":"objects/obj_button_label_parent/obj_button_label_parent.yy",},"propertyId":{"name":"text_data","path":"objects/obj_button_label_parent/obj_button_label_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"You Have Beat The Game, Well Done!\\nEverything Done By Christian Reyes\\nDeveloped With GameMaker",},
   ],
   "parent":{
     "name":"Objects",
